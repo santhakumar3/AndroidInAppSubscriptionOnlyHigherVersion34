@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    tools:context=".Subs">
+
+    <TextView
+        android:id="@+id/tv_substs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Connecting...."/>
+
+    <TextView
+        android:id="@+id/tv_subid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Monthly Subscription"/>
+
+    <TextView
+        android:id="@+id/tv_benifit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Unlimited Bills, no adds"/>
+
+    <TextView
+        android:id="@+id/txtprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="getPrice(0000)"/>
+
+    <Button
+        android:id="@+id/btn_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:onClick="getPrice_click"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="Get Price"/>
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:onClick="btn_sub_click"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="Subscribe"/>
+
+    <Button
+        android:id="@+id/btn_qt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:onClick="quit_click"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="Quit"/>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+InApp Subscription process :
+------------------------------
+
+video link : https://www.youtube.com/watch?v=3oRIN7uhPUc
+
+
+Step 1 : follow the above video link its worked for me for android latest version 34
+
+Important and useful link below :
+---------------------------------
+
+1. first you upload your apk in internal testing only.. here you can test in app purchase and 
+   subscription process sucessfully
+2. and you can only test in app purchase and subscription using only internal testing web link
+  and must be added your email id in internal tester tab option
+
+Important and useful links :
+==============================
+
+
+
+link :
+---
+
+1) https://stackoverflow.com/questions/11068686/this-version-of-the-application-is-not-configured-for-billing-through-google-pla
+2) https://stackoverflow.com/questions/17211507/android-in-app-purchase-you-need-to-add-the-billing-permission-to-your-apk
+3) https://support.google.com/googleplay/android-developer/answer/6062777
+4) https://developer.android.com/google/play/billing/test
+5) https://developer.android.com/google/play/billing/integrate
+
+
+useful link to fix subscription related issue :
+-----------------------------------------------
+https://support.google.com/googleplay/thread/216318274/error-this-version-of-the-application-is-not-configured-for-billing-through-google-play?hl=en
+
+
+change version from 30 to 34 :
+----------------------------------
+https://stackoverflow.com/questions/19465049/changing-api-level-android-studio
+
+
+
+
